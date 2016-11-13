@@ -1,0 +1,23 @@
+#content{
+	margin-left: 20px;
+}
+#content a{
+	text-decoration: none;
+	padding: 10px 15px;
+	background: 	#DC143C;
+	color: #fff;
+	border-radius:5px;
+}
+#content #choice{
+	margin-bottom: 30px;
+}
+#content #title{
+	margin: 30px 0px 30px 0px;
+}
+#content #title h4{
+	padding-left: 15px;
+}
+
+#choice span select a{
+	float: left;
+}
