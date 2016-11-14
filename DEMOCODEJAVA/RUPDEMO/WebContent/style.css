@@ -7,6 +7,13 @@ html{
 body{
 	font-family: "Helvetica Neue",Arial,sans-serif;
 	-webkit-font-smoothing:antialiased;
+	
+	margin: 0px auto;
+}
+.container{
+	width: 95%;
+	margin: 0 auto;
+	padding: 0px;
 }
 img{
 	max-width: 100%;
@@ -20,11 +27,7 @@ a:hover,a:visited,a:focus{
 	color: #20B2AA;
 	text-decoration: none;
 }
-input,input[type="submit"]{
-	border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-}
+
 h1{
 	font-size: 2.2em;
 }
@@ -43,10 +46,10 @@ h5{
 h6{
 	font-size: 1.1em;
 }
-table,table tr,table td{
-	border: 1px solid #ccc;
-	padding: 8px;
+table{
+	
 }
+
 tr td{
 	padding: 10px;
 }
@@ -133,6 +136,7 @@ tr td{
 	padding: 0px;
 	margin: 0 auto;
 	height: 525px;
+	
 }
  
 /***********************Style footer*************************/
@@ -200,7 +204,7 @@ tr td{
     padding: 5px;
 }
 .table > thead > tr > th, .table > tbody > tr > td{
-	padding: 5px;
+	padding: 10px;
 	font-size: 13px;
 }
 .form-control{

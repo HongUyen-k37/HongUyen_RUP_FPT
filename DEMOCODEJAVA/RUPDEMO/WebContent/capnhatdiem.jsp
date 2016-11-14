@@ -3,19 +3,18 @@
  <div id="title">
  	<h4>CẬP NHẬT ĐIỂM</h4>
  </div>
-
-<div id="choice">
-	<span style="margin-left: 15px">Tên đề tài</span>
-	<select style="padding: 10px 15px;border-radius: 5px;margin-left: 40px">
-		<option>Quản lý thư viện</option>
-		<option>Quản lý DVD</option>
-	</select>
-	
-	<a href="#" style="float: right;margin-right: 150px;">Lưu</a>
-	
-</div>
-<div class="col-sm-11">
-	<table class="table table-bordered">
+<div id="main-content">
+	<div id="selection">
+		<span style="margin-left: 15px">Tên đề tài</span>
+		<select style="padding: 10px 80px;border-radius: 5px;margin-left: 40px">
+			<option>Quản lý thư viện</option>
+			<option>Quản lý DVD</option>
+		</select>
+	</div>
+	<div id="btn-luu">
+		<a href="#" style="padding: 10px 25px;">Lưu</a>
+	</div>
+	<table class="table table-bordered" style="width: 90%;margin: 0px auto;">
 	    <thead>
 	      <tr>
 	        <th>Mã sinh viên</th>

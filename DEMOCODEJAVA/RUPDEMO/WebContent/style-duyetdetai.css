@@ -4,7 +4,7 @@
 #content a{
 	text-decoration: none;
 	padding: 10px 15px;
-	background: 	#DC143C;
+	background: #5cb85c;
 	color: #fff;
 	border-radius:5px;
 }
@@ -12,12 +12,27 @@
 	margin-bottom: 30px;
 }
 #content #title{
-	margin: 30px 0px 30px 0px;
+	margin: 30px 0px 30px 60px;
 }
 #content #title h4{
 	padding-left: 15px;
 }
-
+table{
+	width: 80%;
+}
 #choice span select a{
 	float: left;
+}
+#btn-nhap{
+	float: right;
+    margin: 10px 75px 40px 0px;
+}
+#selection{
+	padding-left: 53px;
+}
+#btn-luu{
+	    display: block;
+    float: right;
+    margin: 10px 92px 35px 0px;
+	
 }
