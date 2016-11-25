@@ -29,9 +29,9 @@ Connection cn;
 		ArrayList<DeTai> ds = new ArrayList<DeTai>();
 		ResultSet rs = cmd.executeQuery();
 		while(rs.next()){
-			String maDeTai = rs.getString("MaDeTai");
-			String tenDeTai = rs.getString("TenDeTai");
-			String moTa = rs.getString("MoTai");
+			String maDeTai = rs.getString("maDeTai");
+			String tenDeTai = rs.getString("tenDeTai");
+			String moTa = rs.getString("moTai");
 			DeTai dt = new DeTai(maDeTai, tenDeTai, moTa);
 			ds.add(dt);
 		}

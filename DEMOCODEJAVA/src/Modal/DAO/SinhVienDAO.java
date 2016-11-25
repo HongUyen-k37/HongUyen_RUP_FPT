@@ -30,16 +30,16 @@ Connection cn;
 		ResultSet rs = cmd.executeQuery();
 		while(rs.next()){
 			
-			String maSinhVien = rs.getString("MaSinhVien");
-			String tenSinhVien = rs.getString("TenSinhVien");
-			String matKhau = rs.getString("MatKhau");
-			Date ngaySinh = rs.getDate("NgaySinh");
-			String gioiTinh = rs.getString("GioiTinh");
-			String cMND = rs.getString("CMND");
-			String soDienThoai = rs.getString("SoDienThoai");
-			String noiCuTru = rs.getString("NoiCuTru");
-			String eMail = rs.getString("Email");
-			String noiSinh = rs.getString("NoiSinh");
+			String maSinhVien = rs.getString("maSinhVien");
+			String tenSinhVien = rs.getString("tenSinhVien");
+			String matKhau = rs.getString("matKhau");
+			Date ngaySinh = rs.getDate("ngaySinh");
+			String gioiTinh = rs.getString("gioiTinh");
+			String cMND = rs.getString("cMND");
+			String soDienThoai = rs.getString("soDienThoai");
+			String noiCuTru = rs.getString("noiCuTru");
+			String eMail = rs.getString("email");
+			String noiSinh = rs.getString("noiSinh");
 			SinhVien sv = new SinhVien(maSinhVien, tenSinhVien, matKhau, ngaySinh, gioiTinh, cMND, soDienThoai, noiCuTru, eMail, noiSinh);
 			ds.add(sv);
 		}
@@ -51,7 +51,7 @@ Connection cn;
 	public int kiemTraMatKhau(String maSinhVien,String matKhau)throws Exception 
 	{
 		ketNoi();
-		String sql = "select * from SinhVien where MaSinhVien = ? and MatKhau = ?";
+		String sql = "select * from SinhVien where maSinhVien = ? and matKhau = ?";
 		PreparedStatement cmd = cn.prepareStatement(sql);
 		cmd.setString(1, maSinhVien);
 		cmd.setString(2, matKhau);
